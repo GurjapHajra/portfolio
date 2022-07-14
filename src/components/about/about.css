@@ -15,10 +15,11 @@
     width: 100%;
     aspect-ratio: 1/1;
     border-radius: 2rem;
-    background: linear-gradient(45deg,transparent,var(--color-primary),transparent);
+    background: linear-gradient(135deg, orange, transparent);
     display: flex;
+    margin: 2rem;
     align-items: center;
-    max-height: 40rem;
+    max-height: 50rem;
 }
 
 .about__me-image{
@@ -73,6 +74,13 @@
 .about__content p{
     margin: 2rem 0 2.6rem;
     color: var(--color-light);
+    text-align: center;
+}
+
+#about_info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 /* =============================== MEDIA QUERIES (MEDIUM DEVICES) ============================ */

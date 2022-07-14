@@ -1,6 +1,6 @@
 import React from 'react'
 import "./about.css"
-import photo from "../../assets/photo_2.JPG"
+import photo from "../../assets/try3.JPG"
 import {FaAward,FaUsers,FaFolder} from "react-icons/fa"
 
 const about = () => {
@@ -24,7 +24,7 @@ const about = () => {
           <article className='about__card'>
             <FaAward className='about__icon'/>
             <h5>Experience</h5>
-            <small>3+ years</small>
+            <small>I wish</small>
           </article>
 
           <article className='about__card'>
@@ -39,11 +39,13 @@ const about = () => {
             <small>6 insane</small>
           </article>
           </div>
+          <div id='about_info'>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Id maiores provident consectetur porro in quia corrupti minus sit eaque ea asperiores dolores iusto deleniti adipisci illum, quis repudiandae facere voluptate.
           </p>
 
           <a href='#contact' className='btn btn-primanry'>Let's talk</a>
+          </div>
 
         </div>
 
