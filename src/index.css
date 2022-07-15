@@ -57,8 +57,7 @@ h1{
 }
 
 section{
-  margin-top: 8rem;
-  height: 100vh;
+  padding-top: 8rem;
 }
 
 section h2, section h5{
@@ -120,7 +119,7 @@ img{
   }
   
   section{
-    margin-top: 6rem;
+    padding-top: 6rem;
   }
 }
 
@@ -132,6 +131,6 @@ img{
   }
   
   section > h2{
-    margin-bottom: 2rem;
+    padding-bottom: 2rem;
   }
 }
