@@ -1,7 +1,7 @@
 import React from 'react'
 import "./projects.css"
-import Chess from "../../assets/try2.JPG"
-import _2048 from "../../assets/try2.JPG"
+import Chess from "../../assets/chess.png"
+import _2048 from "../../assets/2048R.gif"
 import seq from "../../assets/sequence.png"
 import Dr from "../../assets/dr.eureka.jpg"
 import mines from "../../assets/minesweeper_picture.jpg"
