@@ -23,7 +23,7 @@ const projects = () => {
       image: port,
       title: "Portfolio Website",
       github: 'https://github.com/GurjapHajra/portfolio',
-      demo: "https://powerlevel.ml"
+      demo: "https://gurjaphajra.tk"
     },
     {
       id: 3,
@@ -84,7 +84,8 @@ const projects = () => {
             <div className="project_item-cta">
           
               <a href={github} className='btn' target="_blank"> GitHub</a>
-              <a href={demo} className='btn btn-primary' target="_blank"> Live Demo</a>
+              {(demo!="") ? <a href={demo} className='btn btn-primary' target="_blank"> Live Demo</a> : null}
+                
 
             </div>
         
