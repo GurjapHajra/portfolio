@@ -14,49 +14,49 @@ const projects = () => {
     {
       id: 1,
       image: power,
-      title: "Power Level Compaison Website",
+      title: "Power Level Compaison (Website)",
       github: 'https://github.com/GurjapHajra',
-      demo: "https://powerlevel.ml"
+      demo: "https://powerlevelc.ml/"
     },
     {
       id: 2,
       image: port,
-      title: "Portfolio Website",
+      title: "Portfolio (Website)",
       github: 'https://github.com/GurjapHajra/portfolio',
-      demo: "https://gurjaphajra.tk"
+      demo: "https://gurjaphajra.tk/"
     },
     {
       id: 3,
       image: seq,
-      title: "Sequence Memory App",
+      title: "Sequence Memory (Mobile App)",
       github: 'https://github.com/GurjapHajra/Centennials-IQ-test',
       demo: ""
     },
     {
       id: 4,
       image: mines,
-      title: "MineSweeper App",
+      title: "MineSweeper (Mobile App)",
       github: 'https://github.com/GurjapHajra/Minesweeper',
       demo: ""
     },
     {
       id: 5,
       image: Dr,
-      title: "Dr.Eureka App",
+      title: "Dr.Eureka (Mobile App)",
       github: 'https://github.com/GurjapHajra/Dr.Eureka',
       demo: ""
     },
     {
       id: 6,
       image: Chess,
-      title: "Chess",
+      title: "Chess (JAVA App)",
       github: 'https://github.com/GurjapHajra/Chess',
       demo: ""
     },
     {
       id: 7,
       image: _2048,
-      title: "2048",
+      title: "2048 (JAVA App)",
       github: 'https://github.com/GurjapHajra/2048',
       demo: ""
     },

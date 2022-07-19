@@ -1,11 +1,12 @@
 import React from 'react'
 import "./nav.css"
-import {AiOutlineHome,AiOutlineUser,AiOutlineBook,AiOutlineContacts,AiOutlineMessage,AiOutlineProject} from "react-icons/ai"
+import {AiOutlineHome,AiOutlineUser,AiOutlineBook,AiOutlineFolderOpen} from "react-icons/ai"
+import {BsChatText} from "react-icons/bs"
 import { useState } from 'react'
 
 const Navga = () => {
 
-  const [activeNav,setActiveNav] = useState("#")
+  const [activeNav,setActiveNav] = useState("#");
   /* too activate live navbar changing
   document.addEventListener(
     "mouseover",
@@ -36,8 +37,8 @@ const Navga = () => {
       <a href='#' onClick={() => setActiveNav("#")} className={activeNav === "#" ? "active" : ""}><AiOutlineHome/></a>
       <a href='#about' onClick={() => setActiveNav("#about")} className={activeNav === "#about" ? "active" : ""}><AiOutlineUser/></a>
       <a href='#experience' onClick={() => setActiveNav("#experience")} className={activeNav === "#experience" ? "active" : ""}><AiOutlineBook/></a>
-      <a href='#projects' onClick={() => setActiveNav("#projects")} className={activeNav === "#projects" ? "active" : ""}><AiOutlineProject/></a>
-      <a href='#contact' onClick={() => setActiveNav("#contact")} className={activeNav === "#contact" ? "active" : ""}><AiOutlineContacts/></a>
+      <a href='#projects' onClick={() => setActiveNav("#projects")} className={activeNav === "#projects" ? "active" : ""}><AiOutlineFolderOpen/></a>
+      <a href='#contact' onClick={() => setActiveNav("#contact")} className={activeNav === "#contact" ? "active" : ""}><BsChatText/></a>
     </nav>
   )
 }
