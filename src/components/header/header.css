@@ -74,4 +74,11 @@ header{
     .header__socials, .scroll__down{
         display: none;
     }
+
+    #me{
+        width: 16rem;
+        height: 25rem;
+        left: calc(50% - 9.5rem);
+    }
+
 }
