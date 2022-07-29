@@ -12,10 +12,17 @@ const projects = () => {
 
   const data = [
     {
+      id: 0,
+      image: power,
+      title: "Personal API",
+      github: 'https://github.com/GurjapHajra/Personal_API',
+      demo: "https://log-scale-api.herokuapp.com/"
+    },
+    {
       id: 1,
       image: power,
       title: "Power Level Compaison (Website)",
-      github: 'https://github.com/GurjapHajra',
+      github: 'https://github.com/GurjapHajra/powerscalling_website',
       demo: "https://powerlevelc.ml/"
     },
     {

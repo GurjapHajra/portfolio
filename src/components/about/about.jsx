@@ -42,7 +42,7 @@ const about = () => {
           </div>
           <div id='about_info'>
           <p>
-          Hey, I am currently a Computer Science student at york university. I have completed many core computer science courses with exceptional grades.
+          Hey, I am currently a Computer Science student at York university. I have completed many core computer science courses with exceptional grades.
           I have also been a part of many clubs such as the Specialist High Skills Major program, The robotics club, and the coding
 club in my school. Throughout this time, I have developed very strong software and programming skills, which I
 am sure can benefit your team.
