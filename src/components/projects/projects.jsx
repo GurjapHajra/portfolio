@@ -8,6 +8,7 @@ import mines from "../../assets/minesweeper_picture.jpg"
 import port from "../../assets/website_picture.png"
 import power from "../../assets/powerlevel_picture.png"
 import api_pic from "../../assets/api_picture.png"
+import logS from "../../assets/logscale_img.jpg"
 
 const projects = () => {
 
@@ -21,6 +22,13 @@ const projects = () => {
     },
     {
       id: 1,
+      image: logS,
+      title: "Log Scale (Website)",
+      github: 'https://github.com/GurjapHajra/logscale',
+      demo: "https://logscale.ml/"
+    },
+    {
+      id: 7,
       image: power,
       title: "Power Level Compaison (Website)",
       github: 'https://github.com/GurjapHajra/powerscalling_website',
