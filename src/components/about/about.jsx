@@ -41,11 +41,33 @@ const about = () => {
           </article>
           </div>
           <div id='about_info'>
-          <p>
-          Hey, I am currently a Computer Science student at York university. I have completed many core computer science courses with exceptional grades.
-          I have also been a part of many clubs such as the Specialist High Skills Major program, The robotics club, and the coding
-club in my school. Throughout this time, I have developed very strong software and programming skills, which I
-am sure can benefit your team.
+          <p>Computers and software have always fascinated me, ever since I was a kid in India. I have
+pursued my passion for computer science through my education and my hobbies. In this
+essay, I will tell you more about myself, my background, my inspiration, and my artifact. My
+name is Gurjap Hajra and this is who I am.
+One of the most important aspects of my identity is my background. I spent the first twelve
+years of my life in India, where I learned how to be a hardworking and social man. Living in
+India taught me how to overcome challenges, appreciate diversity, and respect different
+cultures. When I moved to Canada, I was able to adapt quickly and make new friends with
+ease. My background has shaped me into the person I am today.
+Another important aspect of my identity is my education. I have always been passionate
+about computer science and software development. I worked hard to get accepted into my
+dream program of Computer Science at York University. I chose York because of its vibrant
+culture and its excellent reputation for computer science. I’m currently in my third year of
+study and I’m looking forward to graduating in 2025. I enjoy learning new skills and
+technologies that can help me solve problems and create innovative solutions.
+Besides my education, I also have many hobbies that reflect my interests and personality. I
+love playing various sports, such as cricket, pool, table tennis, and online video games.
+Playing sports helps me relax, have fun, and stay fit. I also like to challenge myself and
+compete with others. Playing online video games allows me to connect with people from
+different countries and backgrounds.
+In conclusion, I’m a passionate computer science student who has a diverse background, a
+strong work ethic, and a variety of hobbies. My inspiration is Andrew Tate, who has
+motivated me to take action and be proactive in my life. My artifact is a quote from him that
+resonates with me: “the temporary satisfaction of quitting is outweighed by the eternal
+suffering of being nobody”. This quote reflects my philosophy of life: to work hard, to be
+someone significant, and to be remembered.
+
           </p>
 
           <a href='#contact' className='btn btn-primanry'>Let's talk</a>
