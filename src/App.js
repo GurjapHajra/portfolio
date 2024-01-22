@@ -16,9 +16,7 @@ function App() {
       <Nav/>
       <About/>
       <Experience/>
-      <Goals/>
       <Projects/>
-      <Video/>
       <Contact/>
       <Footer/>
     </div>
