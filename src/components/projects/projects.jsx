@@ -9,10 +9,18 @@ import port from "../../assets/website_picture.png"
 import power from "../../assets/powerlevel_picture.png"
 import api_pic from "../../assets/api_picture.png"
 import logS from "../../assets/logscale_img.jpg"
+import aiv from "../../assets/aiv.png"
+
 
 const projects = () => {
 
   const data = [
+    {
+      id: 0,
+      image: aiv,
+      title: "AIV (Web Application)",
+      demo: "https://ai.gurjaphajra.me/",
+    },
     {
       id: 0,
       image: api_pic,
@@ -25,7 +33,7 @@ const projects = () => {
       image: logS,
       title: "Log Scale (Website)",
       github: 'https://github.com/GurjapHajra/logscale',
-      demo: "https://logscale.ml/"
+      demo: "https://logscale.gurjaphajra.me/"
     },
     {
       id: 7,
@@ -101,10 +109,7 @@ const projects = () => {
           
               <a href={github} className='btn' target="_blank"> GitHub</a>
               {(demo!="") ? <a href={demo} className='btn btn-primary' target="_blank"> Live Demo</a> : null}
-                
-
             </div>
-        
             </article>)
           })
         }
